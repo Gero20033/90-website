@@ -1,3 +1,29 @@
-img {
-    height: 300px;
+header {
+    height: 70px;
+    padding: 10px;
 }
+
+.mew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mew img {
+    height: 75px;
+    margin-right: 10px;
+}
+
+.world {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.world img {
+    height: 75px;
+    margin-right: 10px;
+}
+
