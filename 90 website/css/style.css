@@ -1,29 +1,78 @@
-header {
-    height: 70px;
-    padding: 10px;
+body {
+    background-image: url(../img/background/stars.gif);
 }
 
-.mew {
+header {
+
+    height: 70px;
+    padding: 10px;
+
+}
+
+.buscador {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.buscador a {
+    
+    color: #FF6FFF;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    padding: 10px 30px;
+    transition: 0.5s;
     
 }
 
-.mew img {
-    height: 75px;
-    margin-right: 10px;
+a:hover {
+
+    letter-spacing: 0.25em;
+    text-shadow: 0 0 25px #FDB9C8;
+
 }
 
-.world {
+.mew {
+
+    height: 500px;
+
+}
+
+header .bloodline {
+
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon {
+
+    height: 300px;
+
+}
+
+footer {
+
+    height: 70px;
+    padding: 10px;
     
 }
 
-.world img {
-    height: 75px;
-    margin-right: 10px;
-}
+footer .pie {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

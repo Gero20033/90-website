@@ -1,0 +1,29 @@
+body {
+
+    background-image: url(../img/background/redstars.gif);
+
+}
+
+.vampire {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vampire img {
+    width: auto;
+}
+
+.arrow {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrow img {
+    width: 200px;
+}
